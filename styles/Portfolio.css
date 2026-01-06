@@ -62,7 +62,11 @@ nav button{
     font-weight:700px;
     border:none;
     border-radius:5px;
+    cursor:pointer;
 
+}
+nav button:hover{
+    background-color:rgb(166, 87, 59);
 }
 
 section {
@@ -123,6 +127,10 @@ section {
     border-radius:5px;
 
     padding:19px 17px 18px;
+    cursor:pointer;
+}
+#banner .btn:hover{
+    background-color:rgb(166, 87, 59);
 }
 
 #banner .btn2{
@@ -135,8 +143,11 @@ section {
     font-size:20px;
 
     padding:18px 17px 18px;
+    cursor:pointer;
 
-
+}
+#banner .btn2:hover{
+    background-color:lightgray;
 }
 
 .btn-container{
@@ -147,4 +158,73 @@ section {
 #banner .banner-img img{
     max-width:584px;
     vertical-align:middle;
+}
+
+#about{
+    max-width:1140px;
+    width:100%;
+    /* border:1px solid black; */
+    background-color:#FFF8F3;
+    
+    /* margin-top:130px; */
+    margin-right:300px;
+    margin-left:auto;
+    justify-content:center;
+    height:500px;
+}
+
+#about .about-container{
+    width:70%;
+    max-width:1000px;
+
+    margin:130px 80px;
+    /* border:1px solid red; */
+
+}
+
+#about .about-container h3{
+    font-weight:700px;
+    font-size:35px;
+    color:#181818;
+    text-align:center;   
+}
+#about .about-container p{
+    font-weight:400px;
+    font-size:18px;
+    
+    color:#757575;
+
+    text-transform:capitalize;
+    text-align:center;
+
+    margin-top:30px;
+    /* padding:10px; */
+
+   
+  text-align: center;     
+  max-width: 800px;        
+  /* margin: 0 auto;          */
+  line-height: 1.6;        
+  color: #666;             
+  font-family: sans-serif;
+
+}
+
+#about .about-contact{
+    display:flex;
+    justify-content:space-around;
+
+}
+#about .about-container div{
+    text-align:center;
+    font-weight:400px;
+    font-size:20px;
+    
+    color:#757575;
+
+}
+
+#about .info1 .info2 .info3 .info4{
+    font-weight:600px;
+    font-size:20px;
 }
