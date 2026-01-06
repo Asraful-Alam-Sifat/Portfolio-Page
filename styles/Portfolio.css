@@ -228,3 +228,83 @@ section {
     font-weight:600px;
     font-size:20px;
 }
+
+.skill{
+    width:100%;
+    max-width: 1140px;
+    display:flex;
+    flex-wrap:wrap;
+
+    /* border:1px solid black; */
+
+    margin-left:auto;
+    margin-right:300px;
+    margin-top:130px;
+}
+
+.section-heading{
+    width:100%;
+    max-width:800px;
+
+    /* border:1px solid black; */
+    margin:0 170px;
+    
+}
+
+.section-heading h2{
+    font-size:35px;
+    font-weight:700px;
+    color:#181818;
+    text-align:center;
+}
+.section-heading p{
+    font-weight:400px;
+    font-size:18px;
+    color:#757575;
+
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:30px;
+}
+.skill-box{
+
+    /* border:1px solid black; */
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+}
+
+.js, .react, .nodejs, .mongo{
+    padding:20px;
+    /* border:1px solid black; */
+    flex:1;
+    background-color:#FFFFFF;
+    box-shadow:10px -8px 20px #e8e8e8bf;
+
+    border-radius:5px;
+    margin-top:50px;
+}
+.jsinfo, .reactinfo, .nodeinfo, .mongoinfo{
+    padding:20px;
+    /* border:1px solid black; */
+    flex:1;
+    background-color:#FFFFFF;
+    box-shadow:10px -8px 20px #e8e8e8bf;
+
+    border-radius:5px;
+    margin-top:20px;
+} 
+.jsinfo p, .reactinfo p, .nodeinfo p, .mongoinfo p{
+    font-weight:400;
+    font-size:16px;
+    color:#757575;
+    text-transform:capitalize;
+}
+
+.jsinfo, .reactinfo, .nodeinfo, .mongoinfo h2{
+    font-weight:700;
+    font-size:20px;
+    color:#181818;
+    
+}
+
