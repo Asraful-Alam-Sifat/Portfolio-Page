@@ -380,3 +380,6 @@ section {
     padding:19px 17px 18px;
     cursor:pointer;
 }
+.secondbtn:hover{
+    background-color:rgb(166, 87, 59);
+}
